@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-syntax */
 
 import lol from './data/lol/lol.js';
-import { filtroNombre, ordenarCampeones, filtrarRoles } from './data.js';
+import { filtroNombre, ordenarCampeones } from './data.js';
 
 const listaTodos = lol.data; // en esta variable guardo los objetos de la data
 const lista = document.querySelector('#galeria'); // selecciono la parte donde voy a poner la informacion
@@ -50,7 +50,7 @@ filtro.addEventListener('click', () => {
   const tagsData = Object.values(listaTodos.tags);
   console.log(tagsData);
 });
-  /* const rolesEnLaData = Object.values(tagsData);
+/* const rolesEnLaData = Object.values(tagsData);
   // console.log(rolesEnLaData);
   const filtroRol = evt.target.filtrarRoles(rolesEnLaData, rolEscogido);
   return filtroRol;
