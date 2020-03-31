@@ -279,7 +279,9 @@ a{
 
     }*/
 
-  
+  .ocultar {
+    display: none;
+  }
 
   #error {
     background: #707b15;
