@@ -44,12 +44,19 @@ buscar.addEventListener('keyup', (evt) => {
 },
 false);
 
-// Filtrado de Roles
-const filtro = document.querySelector('#luchador');
-filtro.addEventListener('click', () => {
-  const tagsData = Object.values(listaTodos.tags);
-  console.log(tagsData);
-});
+// // Filtrado de Roles
+// const orderLuchador = document.querySelector('#luchador');
+// orderLuchador.addEventListener('click', () => {
+//   const orderSelectLuchador = orderLuchador.value;
+//   resultado(filtroLuchador(listaTodos, 'tags', orderSelectLuchador));
+// });
+
+
+// const filtro = document.querySelector('#luchador');
+// filtro.addEventListener('click', () => {
+//   const tagsData = Object.values(listaTodos.tags);
+//   console.log(tagsData);
+// });
 /* const rolesEnLaData = Object.values(tagsData);
   // console.log(rolesEnLaData);
   const filtroRol = evt.target.filtrarRoles(rolesEnLaData, rolEscogido);
