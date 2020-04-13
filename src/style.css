@@ -428,63 +428,14 @@ z-index: 11;
     width: 0px;
     height: 0px;
   }
-<<<<<<< HEAD
-    .lista{
-      display: flex;
-      flex-flow: row nowrap;
-      background:rgba(6, 6, 19, 0.616);
-    }
-      .galeriaDeCampeones{
-        display: flex;
-        flex-flow: row nowrap;
-        flex: 1 1 auto;
-        flex-wrap: wrap;
-      }
-        .casillaCampeon{
-          display: flex;
-          flex-flow: column nowrap;
-          flex: 3 1 auto;
-          box-shadow: 4px 4px 11px rgba(252, 249, 249, 0.27);
-          width: 295px;
-          height: 370px;
-          border: 3px solid rgba(235, 178, 24, 0.719);
-          box-sizing: border-box;
-          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);  
-        }
-        .imagenCampeon{
-          width: 290px;
-          height: 300px;
-        }
-        .nombreCampeon{
-          text-align: center;
-          font-size: 36px;
-          line-height: 40px;
-          color: #FFFFFF;}
-  .footer{
-    background: rgb(28, 28, 29);
-    display: flex;
-    justify-content: center;
-=======
   50%{
     width: 80px;
     height: 80px;
->>>>>>> b13db34dd01d86a25ad0314b2a4865e0d69e88f9
   }
   100%{
     width: 66px;
     height: 66px;
   }
-<<<<<<< HEAD
-  @media all and (max-width: 400px){
-    .galeriaDeCampeones{
-      flex-direction: column nowrap;
-      height: auto;
-    }
-    .casillaCampeon{
-      width:10px;
-    }*/
-  
-=======
 }
 
 .ocultar{
@@ -528,7 +479,6 @@ z-index: 11;
   .imgCampeon{
     width:300px;
   }
->>>>>>> b13db34dd01d86a25ad0314b2a4865e0d69e88f9
   #error {
   
     margin-right: 1em;
