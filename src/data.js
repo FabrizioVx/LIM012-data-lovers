@@ -1,5 +1,4 @@
 // estas funciones son de ejemplo
-// estas funciones son de ejemplo
 
 export const ordenarCampeones = (listaTodos, term) => {
   let ordenarLista;
